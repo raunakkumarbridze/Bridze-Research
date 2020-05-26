@@ -8,17 +8,15 @@
 
 	.bg {
   /* The image used */
-    background: url('img1.jpg');
-    background-repeat : no-repeat;
-	background-size : 1000px 900px;
-    /*background-size: 1500px 1500px;*/
+    background-image: url("images/img1.jpg");
 
     /* Half height */
-    /*height: 30%;*/
+    height: 30%;
+
     /* Center and scale the image nicely */
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .navbar {
     .navbar-inner {
